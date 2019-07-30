@@ -1,0 +1,59 @@
+    body {
+        background-color: #FAF8EF;
+    }
+    
+    section {}
+    
+    .content {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        margin: 5px 45% 0 30%;
+        justify-content: center;
+    }
+    
+    table {
+        border: 2px solid #BBADA0;
+        row-gap: 0px;
+        column-gap: 0px;
+        height: 400px;
+        width: 400px;
+        border-collapse: collapse;
+        border-radius: 3px;
+    }
+    
+    table tr {
+        border-radius: 5px;
+    }
+    
+    table td {
+        border: 5px solid grey;
+        height: 100px;
+        width: 100px;
+        background-color: #CDC1B4;
+        border-radius: 5px;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0;
+    }
+    
+    .game {
+        display: inline-block;
+        border: 1px solid grey;
+        border-radius: 3px;
+        width: fit-content;
+    }
+    
+    table td p {
+        display: block;
+        margin: 0;
+        padding-top: 35%;
+        height: 100%;
+        text-align: center;
+        border-radius: 5px;
+        color: white;
+    }
+    
+    .gameover {
+        visibility: hidden;
+    }

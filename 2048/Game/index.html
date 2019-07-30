@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>2048</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <section>
+        <div class="content">
+            <div class="header" id="header">
+                <h1>2048
+                </h1>
+                <div>
+                    <p>Score : <span id="score"></span></p>
+                    <p>Best Score : <span id="Bestscore"></span></p>
+                    <button onclick="goBack()">Back</button>
+                    <button onclick="resetGame()">New Game</button>
+                </div>
+            </div>
+
+            <div id="gameover">fsdf
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    Thank to pop me out of that button, but now i'm done so you can close this window.
+                </div>
+            </div>
+
+            <div class="game">
+                <table class="board">
+                    <tr class="0">
+                        <td class="00">
+                            <p id="00"></p>
+                        </td>
+                        <td class="01">
+                            <p id="01"></p>
+                        </td>
+                        <td class="02">
+                            <p id="02"></p>
+                        </td>
+                        <td class="00">
+                            <p id="03"></p>
+                        </td>
+                    </tr>
+                    <tr class="1">
+                        <td class="10">
+                            <p id="10"></p>
+                        </td>
+                        <td class="11">
+                            <p id="11"></p>
+                        </td>
+                        <td class="12">
+                            <p id="12"></p>
+                        </td>
+                        <td class="13">
+                            <p id="13"></p>
+                        </td>
+                    </tr>
+                    <tr class="2">
+                        <td class="20">
+                            <p id="20"></p>
+                        </td>
+                        <td class="21">
+                            <p id="21"></p>
+                        </td>
+                        <td class="22">
+                            <p id="22"></p>
+                        </td>
+                        <td class="23">
+                            <p id="23"></p>
+                        </td>
+                    </tr>
+                    <tr class="3">
+                        <td class="30">
+                            <p id="30"></p>
+                        </td>
+                        <td class="31">
+                            <p id="31"></p>
+                        </td>
+                        <td class="32">
+                            <p id="32"></p>
+                        </td>
+                        <td class="33">
+                            <p id="33"></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
