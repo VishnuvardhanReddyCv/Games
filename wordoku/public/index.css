@@ -1,0 +1,65 @@
+.rows {
+    display: flex;
+}
+
+.cells {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.cell {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    color: transparent;
+    text-shadow: 0 0 0 black;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body {
+    background: #d9d1bd;
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    margin: 5px 30% 0 30%;
+}
+
+.title-info {
+    text-align: center;
+}
+
+.scores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.scoreDetails {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.rows {
+    display: flex;
+    justify-content: center;
+}
